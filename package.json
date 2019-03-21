@@ -7,6 +7,8 @@
     "test": "jest"
   },
   "dependencies": {
+    "chai": "^4.2.0",
+    "disklet": "git://github.com/EdgeApp/disklet#william/react-native-native",
     "react": "16.8.3",
     "react-native": "0.59.1"
   },

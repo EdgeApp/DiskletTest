@@ -1,3 +1,5 @@
 rootProject.name = 'DiskletTest'
+include ':disklet'
+project(':disklet').projectDir = new File(rootProject.projectDir, '../node_modules/disklet/android')
 
 include ':app'
